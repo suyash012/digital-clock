@@ -1,11 +1,27 @@
 /* style.css */
 body, html {
     height: 100%;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
+    flex-direction: column;
+}
+
+.container {
+    text-align: center;
+}
+
+.title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 1.5em;
 }
 
 .clock-container {
@@ -76,10 +92,7 @@ body, html {
     align-items: center;
     transform: rotate(90deg);
 }
-.clo{
-    text-align: center;
-    color:Black;
-}
+
 .food-icon {
     position: absolute;
     font-size: 24px;
